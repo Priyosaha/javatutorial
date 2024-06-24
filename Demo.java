@@ -11,8 +11,7 @@ public class Demo {
         } else {
         System.out.println("false");
         }
-
         System.out.println(x.substring(0, 6));
-
     }
+
 }
