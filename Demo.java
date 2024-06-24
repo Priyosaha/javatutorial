@@ -9,7 +9,7 @@ public class Demo {
         if (x != null && x.equals(y)) {
             System.out.println("true");
         } else {
-            System.out.println("false");
+        System.out.println("false");
         }
 
         System.out.println(x.substring(0, 6));
