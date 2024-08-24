@@ -15,5 +15,6 @@ public class Main {
             }
         }
         list.printList();
+        System.out.println(list.getSize());
     }
 }

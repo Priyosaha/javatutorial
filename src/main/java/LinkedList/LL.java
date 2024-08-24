@@ -55,11 +55,16 @@ public class LL{
     }
     public int getFromFirst(){
       if(head==null) {
+          System.out.println("list is empty...");
           return -1;
       }
       return head.val;
     }
     public int getFromLast(){
+        if(tail==null) {
+            System.out.println("list is empty...");
+            return -1;
+        }
         return tail.val;
     }
     public int getSize() {
@@ -72,5 +77,6 @@ public class LL{
             System.out.print(temp.val+" --> ");
             temp = temp.next;
         }
+        System.out.println("END");
     }
 }
